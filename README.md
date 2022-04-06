@@ -1,8 +1,12 @@
 # Locations Loader
 
+### `Home Page`
+
 ![Home Page](./src/assets/images/home.png "Home")
+
+### `Get Data on Scroll`
+
 ![On Scroll](./src/assets/images/onScroll.png "on Scroll")
-)
 
 ## Available Scripts
 
