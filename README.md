@@ -1,5 +1,9 @@
 # Locations Loader
 
+![Home Page](./src/assets/images/home.png "Home")
+![On Scroll](./src/assets/images/onScroll.png "on Scroll")
+)
+
 ## Available Scripts
 
 In the project directory, you can run:

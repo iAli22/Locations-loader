@@ -53,7 +53,7 @@ const CardsContainer: React.FC = () => {
 
   return (
     <Container>
-      <div className={style.CardsContainer}>
+      <div className={style.CardsContainer} data-testid="cards-container">
         {data?.locations && (
           <>
             {data?.locations.map((location, index) => {
@@ -63,10 +63,17 @@ const CardsContainer: React.FC = () => {
                     refs={lastCardNode}
                     key={location.id}
                     location={location}
+                    data-testid="card-item"
                   />
                 );
               } else {
-                return <Card key={location.id} location={location} />;
+                return (
+                  <Card
+                    key={location.id}
+                    location={location}
+                    data-testid="card-item"
+                  />
+                );
               }
             })}
           </>
