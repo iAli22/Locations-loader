@@ -1,0 +1,37 @@
+@import "../../styles/variables";
+
+.nav {
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  padding: 1rem 0;
+
+  &__items {
+    display: flex;
+
+    li {
+      display: inline-block;
+
+      &:not(:last-child) {
+        margin-inline-end: 1.2rem;
+      }
+      text-transform: capitalize;
+      color: black;
+      font-weight: 500;
+      padding-bottom: 0.5rem;
+   
+    }
+  }
+
+  &__logo {
+    h2 {
+      margin-bottom: 0;
+      font-size: $font-md;
+      font-weight: bold;
+    }
+  }
+}
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

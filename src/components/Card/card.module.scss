@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+
+.card {
+  background-color: #fff;
+  padding: 1.5rem 2.5rem;
+
+  &:not(:last-of-type) {
+
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.8rem 0.5rem;
+  }
+
+ 
+  h5 {
+    font-size: $font-md;
+    margin-bottom: 0.8rem;
+  }
+  p {
+    // display: inline-block;
+    margin-bottom: 0.8rem;
+  }
+
+ .cardBody {
+   margin-bottom: 0.8rem;
+ }
+}

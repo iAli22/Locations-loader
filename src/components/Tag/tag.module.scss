@@ -1,0 +1,13 @@
+.tag {
+  padding: 0.4rem 0.5rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 8px;
+  &:not(:last-child) {
+    margin-inline-end: 8px;
+  }
+
+  b {
+    font-weight: 300;
+  }
+}
